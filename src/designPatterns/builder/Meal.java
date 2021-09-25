@@ -23,7 +23,7 @@ public class Meal {
         for(Item item: items) {
             System.out.println("Item: " + item.name());
             System.out.println(", Packing: " + item.packing());
-            System.out.println(", Price " + item.price());
+            System.out.println(", Price: " + item.price());
         }
     }
 }
